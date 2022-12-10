@@ -5,23 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d70ac91-ecfe-4772-b778-e4f5ffe53142" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai5-AccessModifiler.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/minitest/ActionProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/minitest/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/minitest/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/minitets2/main/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/minitets2/manger/StudentManger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/minitets2/menu/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/minitets2/model/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thamchieuthamtri/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thamchieuthamtri/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TH_staticmethod/StaticMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TH_staticmethod/TestStaticMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,13 +45,26 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.minitets2.main.Main">
+  <component name="RunManager" selected="Application.TestStaticMethod">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thamchieuthamtri.Main" />
       <module name="Bai5-AccessModifiler" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="thamchieuthamtri.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestStaticMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TH_staticmethod.TestStaticMethod" />
+      <module name="Bai5-AccessModifiler" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TH_staticmethod.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,6 +100,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestStaticMethod" />
         <item itemvalue="Application.minitets2.main.Main" />
         <item itemvalue="Application.minitest.Main" />
         <item itemvalue="Application.Main" />
@@ -118,7 +118,7 @@
       <workItem from="1670468733131" duration="6522000" />
       <workItem from="1670499606260" duration="13646000" />
       <workItem from="1670595662408" duration="15304000" />
-      <workItem from="1670636780800" duration="5381000" />
+      <workItem from="1670636780800" duration="6498000" />
     </task>
     <servers />
   </component>
