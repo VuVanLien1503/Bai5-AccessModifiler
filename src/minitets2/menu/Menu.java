@@ -10,6 +10,8 @@ public class Menu {
         studentManger.listStudents[0]=new Student(1,"Sơn",23,"Nam","HaNoi",80.5);
         studentManger.listStudents[1]=new Student(2,"Dung",25,"Nam","HaNoi",81.0);
         studentManger.listStudents[2]=new Student(3,"Vũ",21,"Nam","HaNoi",82.5);
+        studentManger.listStudents[3]=new Student();
+        studentManger.listStudents[3].setId(4);
         int choice;
         do {
             System.out.println("MENU:");

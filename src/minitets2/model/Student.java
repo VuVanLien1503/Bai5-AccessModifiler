@@ -29,14 +29,6 @@ public class Student {
         this.avg = avg;
     }
 
-    public Student(String name, int age, String gender, String address, double avg) {
-        this.name = name;
-        this.age = age;
-        this.gender = gender;
-        this.address = address;
-        this.avg = avg;
-    }
-
     public String getName() {
         return name;
     }

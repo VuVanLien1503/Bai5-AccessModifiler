@@ -154,9 +154,12 @@ public class StudentManger {
         for (Student s :
                 listStudents) {
             if (s != null) {
-                if (s.getGender().toUpperCase().contains(input.toUpperCase())) {
-                    System.out.println(s);
+                if (s.getGender()!=null){
+                    if (s.getGender().toUpperCase().contains(input.toUpperCase())) {
+                        System.out.println(s);
+                    }
                 }
+
             }
         }
     }
