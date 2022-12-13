@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d70ac91-ecfe-4772-b778-e4f5ffe53142" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BT_accessModifiler/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BT_accessModifiler/TestCircle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TH_static_property/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TH_static_property/TestStaticProperty.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/minitets2/manger/StudentManger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/minitets2/manger/StudentManger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/minitets2/menu/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/minitets2/menu/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/minitets2/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/minitets2/model/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,19 +33,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/CodeGym/MD2/Week1/Bai5-AccessModifiler",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/CodeGym/MD2/Week1/Bai5-AccessModifiler&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.minitets2.main.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thamchieuthamtri.Main" />
@@ -140,6 +135,14 @@
       <workItem from="1670595662408" duration="15304000" />
       <workItem from="1670636780800" duration="9690000" />
       <workItem from="1670722456548" duration="966000" />
+      <workItem from="1670734452024" duration="53000" />
+      <workItem from="1670735802969" duration="2644000" />
+      <workItem from="1670758337429" duration="697000" />
+      <workItem from="1670770712864" duration="2784000" />
+      <workItem from="1670806256362" duration="1265000" />
+      <workItem from="1670808541356" duration="667000" />
+      <workItem from="1670810105724" duration="1022000" />
+      <workItem from="1670833516941" duration="84000" />
     </task>
     <servers />
   </component>

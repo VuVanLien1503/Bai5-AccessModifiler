@@ -17,30 +17,38 @@ public class StudentManger {
     }
 
     public void scoreMaxMin() {
-        Student studentMax = null;
-        Student studentMin = null;
         double scoreMax = 0;
         double scoreMin = listStudents[0].getAvg();
         for (Student s : listStudents) {
             if (s != null) {
                 if (s.getAvg() > scoreMax) {
                     scoreMax = s.getAvg();
-                    studentMax = s;
                 }
             }
         }
-        for (Student m : listStudents) {
-            if (m != null) {
-                if (m.getAvg() <= scoreMin) {
-                    scoreMin = m.getAvg();
-                    studentMin = m;
+        for (Student student :
+                listStudents) {
+            if (student != null) {
+                if (student.getAvg() == scoreMax) {
+                    System.out.println("Student Max: " + student);
                 }
             }
         }
-        System.out.println("Student MAX-Score :");
-        System.out.println(studentMax);
-        System.out.println("Student MIN-Score :");
-        System.out.println(studentMin);
+        for (Student student : listStudents) {
+            if (student != null) {
+                if (student.getAvg() <= scoreMin) {
+                    scoreMin = student.getAvg();
+                }
+            }
+        }
+        for (Student student :
+                listStudents) {
+            if (student != null) {
+                if (student.getAvg() == scoreMin) {
+                    System.out.println("Student Min: " + student);
+                }
+            }
+        }
     }
 
     public void addStudent() {
@@ -154,7 +162,7 @@ public class StudentManger {
         for (Student s :
                 listStudents) {
             if (s != null) {
-                if (s.getGender()!=null){
+                if (s.getGender() != null) {
                     if (s.getGender().toUpperCase().contains(input.toUpperCase())) {
                         System.out.println(s);
                     }
@@ -164,5 +172,35 @@ public class StudentManger {
         }
     }
 
+    public void deleteStudent(int id) {
+        int index = 0;
+        Student[] newList = new Student[listStudents.length];
+        for (int i = 0; i < listStudents.length; i++) {
+            if (listStudents[i].getId() == id) {
+                listStudents[i] = listStudents[i + 1];
+                index = i;
+                break;
+            } else {
+                newList[i] = listStudents[i];
+            }
+        }
+        for (int i = index; i < listStudents.length - 1; i++) {
+            if (listStudents[i] != null) {
+                listStudents[i].setId(i);
+                newList[i] = listStudents[i + 1];
+            }
+        }
+        listStudents = newList;
+    }
+    public void stringInt(){
+        Scanner scanner =new Scanner(System.in);
+        String string=scanner.nextLine();
+        if (string.equals("")) {
+            System.out.println("No");
+        }else {
+            int number=Integer.parseInt(string);
+            System.out.println(number);
+        }
 
+    }
 }
