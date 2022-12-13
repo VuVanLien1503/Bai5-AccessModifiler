@@ -84,7 +84,7 @@ public class StudentManger {
         for (Student s :
                 listStudents) {
             if (s != null) {
-                if (s.getName().equals(name)) {
+                if (name.equals(s.getName())) {
                     student = s;
                     System.out.println(student);
                     break;
